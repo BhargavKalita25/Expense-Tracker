@@ -1,0 +1,12 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "Full-stack personal finance and expense tracking platform built with React, Node.js, Express, embedded SQLite, JWT authentication, and interactive analytics.",
+  "private": true,
+  "scripts": {
+    "dev": "node server/dev.js",
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "lint": "npm --prefix client run lint"
+  }
+}
